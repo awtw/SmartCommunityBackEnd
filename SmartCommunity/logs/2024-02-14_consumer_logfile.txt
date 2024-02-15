@@ -1,0 +1,163 @@
+2024-02-14 03:02:52.0923 DEBUG init main
+2024-02-14 03:02:52.2680 INFO Start Smart Community Web API ...
+2024-02-14 03:02:52.3470 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-02-14 03:02:52.3682 DEBUG Hosting starting
+2024-02-14 03:02:52.7349 DEBUG Using development certificate: CN=localhost (Thumbprint: 11AF803484E2BE3B3B07016F037641FD690A9192)
+2024-02-14 03:02:52.7434 INFO Now listening on: https://localhost:7048
+2024-02-14 03:02:52.7434 INFO Now listening on: http://localhost:5268
+2024-02-14 03:02:52.7434 DEBUG Loaded hosting startup assembly WebApi
+2024-02-14 03:02:52.7436 INFO Application started. Press Ctrl+C to shut down.
+2024-02-14 03:02:52.7436 INFO Hosting environment: Development
+2024-02-14 03:02:52.7436 INFO Content root path: /Users/august/SynologyDrive/程式相關/Demo/C#/SmartCommunity/SmartCommunity/WebApi/
+2024-02-14 03:02:52.7436 DEBUG Hosting started
+2024-02-14 03:02:52.7972 DEBUG Connection id "0HN1COPGLCUDH" received FIN.
+2024-02-14 03:02:52.8018 DEBUG Connection id "0HN1COPGLCUDH" accepted.
+2024-02-14 03:02:52.8018 DEBUG Connection id "0HN1COPGLCUDH" started.
+2024-02-14 03:02:52.8100 DEBUG Failed to authenticate HTTPS connection.
+2024-02-14 03:02:52.8143 DEBUG Connection id "0HN1COPGLCUDH" stopped.
+2024-02-14 03:02:52.8165 DEBUG Connection id "0HN1COPGLCUDH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-14 03:02:52.9537 DEBUG Connection id "0HN1COPGLCUDI" accepted.
+2024-02-14 03:02:52.9537 DEBUG Connection id "0HN1COPGLCUDJ" accepted.
+2024-02-14 03:02:52.9537 DEBUG Connection id "0HN1COPGLCUDI" started.
+2024-02-14 03:02:52.9537 DEBUG Connection id "0HN1COPGLCUDJ" started.
+2024-02-14 03:02:53.0089 DEBUG Connection 0HN1COPGLCUDJ established using the following protocol: Tls12
+2024-02-14 03:02:53.0089 DEBUG Connection 0HN1COPGLCUDI established using the following protocol: Tls12
+2024-02-14 03:02:53.0353 INFO Request starting HTTP/1.1 GET https://localhost:7048/swagger - -
+2024-02-14 03:02:53.0359 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-02-14 03:02:53.0505 DEBUG No candidates found for the request path '/swagger'
+2024-02-14 03:02:53.0505 DEBUG Request did not match any endpoints
+2024-02-14 03:02:53.0762 DEBUG Connection id "0HN1COPGLCUDJ" completed keep alive response.
+2024-02-14 03:02:53.0768 INFO Request finished HTTP/1.1 GET https://localhost:7048/swagger - - - 301 0 - 42.2187ms
+2024-02-14 03:02:53.0834 INFO Request starting HTTP/1.1 GET https://localhost:7048/swagger/index.html - -
+2024-02-14 03:02:53.0840 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-02-14 03:02:53.0840 DEBUG Request did not match any endpoints
+2024-02-14 03:02:53.1206 DEBUG Connection id "0HN1COPGLCUDJ" completed keep alive response.
+2024-02-14 03:02:53.1206 INFO Request finished HTTP/1.1 GET https://localhost:7048/swagger/index.html - - - 200 - text/html;charset=utf-8 37.3891ms
+2024-02-14 03:02:53.1372 INFO Request starting HTTP/1.1 GET https://localhost:7048/swagger/swagger-ui.css - -
+2024-02-14 03:02:53.1372 DEBUG No candidates found for the request path '/swagger/swagger-ui.css'
+2024-02-14 03:02:53.1372 DEBUG Request did not match any endpoints
+2024-02-14 03:02:53.1421 INFO Request starting HTTP/1.1 GET https://localhost:7048/swagger/swagger-ui-bundle.js - -
+2024-02-14 03:02:53.1421 DEBUG No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2024-02-14 03:02:53.1421 DEBUG Request did not match any endpoints
+2024-02-14 03:02:53.1560 DEBUG Connection id "0HN1COPGLCUDK" accepted.
+2024-02-14 03:02:53.1560 DEBUG Connection id "0HN1COPGLCUDK" started.
+2024-02-14 03:02:53.1590 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-02-14 03:02:53.1590 DEBUG Connection id "0HN1COPGLCUDJ" completed keep alive response.
+2024-02-14 03:02:53.1590 INFO Request finished HTTP/1.1 GET https://localhost:7048/swagger/swagger-ui.css - - - 200 144929 text/css 21.8718ms
+2024-02-14 03:02:53.1590 INFO Request starting HTTP/1.1 GET https://localhost:7048/swagger/swagger-ui-standalone-preset.js - -
+2024-02-14 03:02:53.1590 DEBUG No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2024-02-14 03:02:53.1590 DEBUG Request did not match any endpoints
+2024-02-14 03:02:53.1863 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-02-14 03:02:53.1894 DEBUG Connection 0HN1COPGLCUDK established using the following protocol: Tls12
+2024-02-14 03:02:53.1905 DEBUG Connection id "0HN1COPGLCUDJ" completed keep alive response.
+2024-02-14 03:02:53.1905 INFO Request finished HTTP/1.1 GET https://localhost:7048/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 31.3398ms
+2024-02-14 03:02:53.1935 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-02-14 03:02:53.1935 DEBUG Connection id "0HN1COPGLCUDI" completed keep alive response.
+2024-02-14 03:02:53.1936 INFO Request finished HTTP/1.1 GET https://localhost:7048/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 51.4817ms
+2024-02-14 03:02:53.3101 INFO Request starting HTTP/1.1 GET https://localhost:7048/swagger/v1/swagger.json - -
+2024-02-14 03:02:53.3101 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-02-14 03:02:53.3101 DEBUG Request did not match any endpoints
+2024-02-14 03:02:53.3277 INFO Request starting HTTP/1.1 GET https://localhost:7048/swagger/favicon-32x32.png - -
+2024-02-14 03:02:53.3277 DEBUG No candidates found for the request path '/swagger/favicon-32x32.png'
+2024-02-14 03:02:53.3277 DEBUG Request did not match any endpoints
+2024-02-14 03:02:53.3304 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-02-14 03:02:53.3304 DEBUG Connection id "0HN1COPGLCUDJ" completed keep alive response.
+2024-02-14 03:02:53.3304 INFO Request finished HTTP/1.1 GET https://localhost:7048/swagger/favicon-32x32.png - - - 200 628 image/png 2.8305ms
+2024-02-14 03:02:53.3940 DEBUG Connection id "0HN1COPGLCUDI" completed keep alive response.
+2024-02-14 03:02:53.3940 INFO Request finished HTTP/1.1 GET https://localhost:7048/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.9598ms
+2024-02-14 03:03:19.4594 DEBUG Connection id "0HN1COPGLCUDL" accepted.
+2024-02-14 03:03:19.4594 DEBUG Connection id "0HN1COPGLCUDL" started.
+2024-02-14 03:03:19.4771 DEBUG Connection id "0HN1COPGLCUDL" received FIN.
+2024-02-14 03:03:19.4771 DEBUG Connection id "0HN1COPGLCUDM" accepted.
+2024-02-14 03:03:19.4771 DEBUG Connection id "0HN1COPGLCUDM" started.
+2024-02-14 03:03:19.4781 DEBUG Failed to authenticate HTTPS connection.
+2024-02-14 03:03:19.4781 DEBUG Connection id "0HN1COPGLCUDM" stopped.
+2024-02-14 03:03:19.4781 DEBUG Connection id "0HN1COPGLCUDM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-14 03:03:19.4857 DEBUG Failed to authenticate HTTPS connection.
+2024-02-14 03:03:19.4881 DEBUG Connection id "0HN1COPGLCUDL" stopped.
+2024-02-14 03:03:19.4881 DEBUG Connection id "0HN1COPGLCUDL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-14 03:04:11.2524 DEBUG Connection id "0HN1COPGLCUDN" received FIN.
+2024-02-14 03:04:11.2524 DEBUG Connection id "0HN1COPGLCUDN" accepted.
+2024-02-14 03:04:11.2524 DEBUG Connection id "0HN1COPGLCUDN" started.
+2024-02-14 03:04:11.2524 DEBUG Connection id "0HN1COPGLCUDO" accepted.
+2024-02-14 03:04:11.2528 DEBUG Connection id "0HN1COPGLCUDN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-14 03:04:11.2528 DEBUG Connection id "0HN1COPGLCUDO" started.
+2024-02-14 03:04:11.2528 DEBUG Connection id "0HN1COPGLCUDN" disconnecting.
+2024-02-14 03:04:11.2528 DEBUG Connection id "0HN1COPGLCUDN" stopped.
+2024-02-14 03:04:11.2528 INFO Request starting HTTP/1.1 POST http://localhost:5268/api/Supabase/Login application/json 73
+2024-02-14 03:04:11.2554 DEBUG 1 candidate(s) found for the request path '/api/Supabase/Login'
+2024-02-14 03:04:11.2564 DEBUG Endpoint 'WebApi.Controllers.SupabaseController.Login (WebApi)' with route pattern 'api/Supabase/Login' is valid for the request path '/api/Supabase/Login'
+2024-02-14 03:04:11.2564 DEBUG Request matched endpoint 'WebApi.Controllers.SupabaseController.Login (WebApi)'
+2024-02-14 03:04:11.2564 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-02-14 03:04:11.2588 DEBUG Https port '7048' discovered from server endpoints.
+2024-02-14 03:04:11.2588 DEBUG Redirecting to 'https://localhost:7048/api/Supabase/Login'.
+2024-02-14 03:04:11.2588 DEBUG Connection id "0HN1COPGLCUDO" completed keep alive response.
+2024-02-14 03:04:11.2588 INFO Request finished HTTP/1.1 POST http://localhost:5268/api/Supabase/Login application/json 73 - 307 0 - 6.1502ms
+2024-02-14 03:04:11.2588 DEBUG Connection id "0HN1COPGLCUDO", Request id "0HN1COPGLCUDO:00000002": started reading request body.
+2024-02-14 03:04:11.2588 DEBUG Connection id "0HN1COPGLCUDO", Request id "0HN1COPGLCUDO:00000002": done reading request body.
+2024-02-14 03:04:11.2667 DEBUG Connection id "0HN1COPGLCUDP" accepted.
+2024-02-14 03:04:11.2667 DEBUG Connection id "0HN1COPGLCUDP" started.
+2024-02-14 03:04:11.2706 DEBUG Connection id "0HN1COPGLCUDP" received FIN.
+2024-02-14 03:04:11.2706 DEBUG Connection id "0HN1COPGLCUDQ" accepted.
+2024-02-14 03:04:11.2706 DEBUG Connection id "0HN1COPGLCUDQ" started.
+2024-02-14 03:04:11.2706 DEBUG Connection id "0HN1COPGLCUDP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-14 03:04:11.2710 DEBUG Connection id "0HN1COPGLCUDP" disconnecting.
+2024-02-14 03:04:11.2718 DEBUG Connection id "0HN1COPGLCUDP" stopped.
+2024-02-14 03:04:11.2939 DEBUG Connection 0HN1COPGLCUDQ established using the following protocol: Tls12
+2024-02-14 03:04:11.2939 INFO Request starting HTTP/1.1 POST https://localhost:7048/api/Supabase/Login application/json 73
+2024-02-14 03:04:11.2958 DEBUG 1 candidate(s) found for the request path '/api/Supabase/Login'
+2024-02-14 03:04:11.2958 DEBUG Endpoint 'WebApi.Controllers.SupabaseController.Login (WebApi)' with route pattern 'api/Supabase/Login' is valid for the request path '/api/Supabase/Login'
+2024-02-14 03:04:11.2958 DEBUG Request matched endpoint 'WebApi.Controllers.SupabaseController.Login (WebApi)'
+2024-02-14 03:04:11.2958 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-02-14 03:04:11.2987 INFO Executing endpoint 'WebApi.Controllers.SupabaseController.Login (WebApi)'
+2024-02-14 03:04:11.3246 INFO Route matched with {action = "Login", controller = "Supabase"}. Executing controller action with signature System.Threading.Tasks.Task`1[WebApi.Enums.ResponseEntity] Login(WebApi.Entities.AccountInfoEntity) on controller WebApi.Controllers.SupabaseController (WebApi).
+2024-02-14 03:04:11.3249 DEBUG Execution plan of authorization filters (in the following order): None
+2024-02-14 03:04:11.3249 DEBUG Execution plan of resource filters (in the following order): None
+2024-02-14 03:04:11.3249 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-02-14 03:04:11.3249 DEBUG Execution plan of exception filters (in the following order): None
+2024-02-14 03:04:11.3249 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-02-14 03:04:11.3249 DEBUG Executing controller factory for controller WebApi.Controllers.SupabaseController (WebApi)
+2024-02-14 03:04:11.3400 DEBUG Executed controller factory for controller WebApi.Controllers.SupabaseController (WebApi)
+2024-02-14 03:04:11.3424 DEBUG Attempting to bind parameter 'accountInfo' of type 'WebApi.Entities.AccountInfoEntity' ...
+2024-02-14 03:04:11.3436 DEBUG Attempting to bind parameter 'accountInfo' of type 'WebApi.Entities.AccountInfoEntity' using the name '' in request data ...
+2024-02-14 03:04:11.3437 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-02-14 03:04:11.3458 DEBUG Connection id "0HN1COPGLCUDQ", Request id "0HN1COPGLCUDQ:00000002": started reading request body.
+2024-02-14 03:04:11.3458 DEBUG Connection id "0HN1COPGLCUDQ", Request id "0HN1COPGLCUDQ:00000002": done reading request body.
+2024-02-14 03:04:11.3501 DEBUG JSON input formatter succeeded, deserializing to type 'WebApi.Entities.AccountInfoEntity'
+2024-02-14 03:04:11.3501 DEBUG Done attempting to bind parameter 'accountInfo' of type 'WebApi.Entities.AccountInfoEntity'.
+2024-02-14 03:04:11.3501 DEBUG Done attempting to bind parameter 'accountInfo' of type 'WebApi.Entities.AccountInfoEntity'.
+2024-02-14 03:04:11.3501 DEBUG Attempting to validate the bound parameter 'accountInfo' of type 'WebApi.Entities.AccountInfoEntity' ...
+2024-02-14 03:04:11.3546 DEBUG Done attempting to validate the bound parameter 'accountInfo' of type 'WebApi.Entities.AccountInfoEntity'.
+2024-02-14 03:04:11.3594 INFO Executing action method WebApi.Controllers.SupabaseController.Login (WebApi) - Validation state: Valid
+2024-02-14 03:04:11.3609 INFO Craete User
+2024-02-14 03:04:12.6175 INFO Session: ${session}
+2024-02-14 03:04:12.6175 INFO Supabase.Gotrue.Session
+2024-02-14 03:04:12.6218 INFO Executed action method WebApi.Controllers.SupabaseController.Login (WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1259.6794ms.
+2024-02-14 03:04:12.6259 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-02-14 03:04:12.6276 DEBUG No information found on request to perform content negotiation.
+2024-02-14 03:04:12.6276 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-02-14 03:04:12.6276 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-02-14 03:04:12.6278 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-02-14 03:04:12.6278 INFO Executing ObjectResult, writing value of type 'WebApi.Enums.ResponseEntity'.
+2024-02-14 03:04:12.6515 INFO Executed action WebApi.Controllers.SupabaseController.Login (WebApi) in 1323.377ms
+2024-02-14 03:04:12.6522 INFO Executed endpoint 'WebApi.Controllers.SupabaseController.Login (WebApi)'
+2024-02-14 03:04:12.6528 DEBUG Connection id "0HN1COPGLCUDQ" completed keep alive response.
+2024-02-14 03:04:12.6528 INFO Request finished HTTP/1.1 POST https://localhost:7048/api/Supabase/Login application/json 73 - 200 - application/json;+charset=utf-8 1358.2317ms
+2024-02-14 03:04:23.6250 INFO Application is shutting down...
+2024-02-14 03:04:23.6260 DEBUG Hosting stopping
+2024-02-14 03:04:23.6319 DEBUG Connection id "0HN1COPGLCUDJ" disconnecting.
+2024-02-14 03:04:23.6319 DEBUG Connection id "0HN1COPGLCUDK" disconnecting.
+2024-02-14 03:04:23.6319 DEBUG Connection id "0HN1COPGLCUDQ" disconnecting.
+2024-02-14 03:04:23.6319 DEBUG Connection id "0HN1COPGLCUDJ" stopped.
+2024-02-14 03:04:23.6319 DEBUG Connection id "0HN1COPGLCUDQ" stopped.
+2024-02-14 03:04:23.6319 DEBUG Connection id "0HN1COPGLCUDI" disconnecting.
+2024-02-14 03:04:23.6319 DEBUG Connection id "0HN1COPGLCUDQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-14 03:04:23.6319 DEBUG Connection id "0HN1COPGLCUDJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-14 03:04:23.6319 DEBUG Connection id "0HN1COPGLCUDK" stopped.
+2024-02-14 03:04:23.6319 DEBUG Connection id "0HN1COPGLCUDI" stopped.
+2024-02-14 03:04:23.6319 DEBUG Connection id "0HN1COPGLCUDK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-14 03:04:23.6319 DEBUG Connection id "0HN1COPGLCUDI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-14 03:04:23.6329 DEBUG Connection id "0HN1COPGLCUDO" disconnecting.
+2024-02-14 03:04:23.6329 DEBUG Connection id "0HN1COPGLCUDO" stopped.
+2024-02-14 03:04:23.6329 DEBUG Connection id "0HN1COPGLCUDO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-14 03:04:23.6346 DEBUG Hosting stopped

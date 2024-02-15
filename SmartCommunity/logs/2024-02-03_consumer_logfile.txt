@@ -1,0 +1,365 @@
+2024-02-03 23:13:40.4922 DEBUG init main
+2024-02-03 23:13:40.5073 INFO Start Smart Community Consumer worker ...
+2024-02-03 23:14:40.8259 DEBUG init main
+2024-02-03 23:14:40.8411 INFO Start Smart Community Consumer worker ...
+2024-02-03 23:17:24.7118 DEBUG init main
+2024-02-03 23:17:24.7280 INFO Start Smart Community Consumer worker ...
+2024-02-03 23:19:33.1611 DEBUG init main
+2024-02-03 23:19:33.1766 INFO Start Smart Community Consumer worker ...
+2024-02-03 23:20:18.1436 DEBUG init main
+2024-02-03 23:20:18.1594 INFO Start Smart Community Consumer worker ...
+2024-02-03 23:20:58.1556 DEBUG init main
+2024-02-03 23:20:58.1711 INFO Start Smart Community Consumer worker ...
+2024-02-03 23:21:27.8176 DEBUG init main
+2024-02-03 23:21:28.0189 INFO Start Smart Community Web API ...
+2024-02-03 23:21:28.2436 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-02-03 23:21:28.2683 DEBUG Hosting starting
+2024-02-03 23:21:28.3808 DEBUG Using development certificate: CN=localhost (Thumbprint: 11AF803484E2BE3B3B07016F037641FD690A9192)
+2024-02-03 23:21:28.4412 INFO Now listening on: https://localhost:7048
+2024-02-03 23:21:28.4412 INFO Now listening on: http://localhost:5268
+2024-02-03 23:21:28.4412 DEBUG Loaded hosting startup assembly WebApi
+2024-02-03 23:21:28.4412 INFO Application started. Press Ctrl+C to shut down.
+2024-02-03 23:21:28.4416 INFO Hosting environment: Development
+2024-02-03 23:21:28.4416 INFO Content root path: /Users/august/SynologyDrive/程式相關/Demo/C#/SmartCommunity/SmartCommunity/WebApi/
+2024-02-03 23:21:28.4416 DEBUG Hosting started
+2024-02-03 23:21:30.3818 DEBUG Connection id "0HN14PF649UOB" accepted.
+2024-02-03 23:21:30.3818 DEBUG Connection id "0HN14PF649UOC" accepted.
+2024-02-03 23:21:30.3825 DEBUG Connection id "0HN14PF649UOB" started.
+2024-02-03 23:21:30.3825 DEBUG Connection id "0HN14PF649UOC" started.
+2024-02-03 23:21:30.4299 DEBUG Connection 0HN14PF649UOB established using the following protocol: Tls12
+2024-02-03 23:21:30.4318 DEBUG Connection 0HN14PF649UOC established using the following protocol: Tls12
+2024-02-03 23:21:30.4544 INFO Request starting HTTP/1.1 GET https://localhost:7048/swagger/index.html - -
+2024-02-03 23:21:30.4557 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-02-03 23:21:30.4699 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-02-03 23:21:30.4699 DEBUG Request did not match any endpoints
+2024-02-03 23:21:30.5343 DEBUG Connection id "0HN14PF649UOB" completed keep alive response.
+2024-02-03 23:21:30.5354 INFO Request finished HTTP/1.1 GET https://localhost:7048/swagger/index.html - - - 200 - text/html;charset=utf-8 81.5140ms
+2024-02-03 23:21:30.6514 INFO Request starting HTTP/1.1 GET https://localhost:7048/swagger/v1/swagger.json - -
+2024-02-03 23:21:30.6518 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-02-03 23:21:30.6518 DEBUG Request did not match any endpoints
+2024-02-03 23:21:30.7183 DEBUG Connection id "0HN14PF649UOB" completed keep alive response.
+2024-02-03 23:21:30.7183 INFO Request finished HTTP/1.1 GET https://localhost:7048/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 67.0256ms
+2024-02-03 23:21:33.4365 DEBUG Connection id "0HN14PF649UOD" received FIN.
+2024-02-03 23:21:33.5109 DEBUG Connection id "0HN14PF649UOD" accepted.
+2024-02-03 23:21:33.5109 DEBUG Connection id "0HN14PF649UOD" started.
+2024-02-03 23:21:33.5109 DEBUG Connection id "0HN14PF649UOE" received FIN.
+2024-02-03 23:21:33.5109 DEBUG Connection id "0HN14PF649UOE" accepted.
+2024-02-03 23:21:33.5109 DEBUG Connection id "0HN14PF649UOE" started.
+2024-02-03 23:21:33.5424 DEBUG Failed to authenticate HTTPS connection.
+2024-02-03 23:21:33.5505 DEBUG Connection id "0HN14PF649UOD" stopped.
+2024-02-03 23:21:33.5541 DEBUG Connection id "0HN14PF649UOD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-03 23:21:33.5682 DEBUG Failed to authenticate HTTPS connection.
+2024-02-03 23:21:33.5682 DEBUG Connection id "0HN14PF649UOE" stopped.
+2024-02-03 23:21:33.5687 DEBUG Connection id "0HN14PF649UOE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-03 23:21:33.8468 DEBUG Connection id "0HN14PF649UOF" received FIN.
+2024-02-03 23:21:33.8468 DEBUG Connection id "0HN14PF649UOF" accepted.
+2024-02-03 23:21:33.8468 DEBUG Connection id "0HN14PF649UOF" started.
+2024-02-03 23:21:33.8481 DEBUG Connection id "0HN14PF649UOG" accepted.
+2024-02-03 23:21:33.8481 DEBUG Connection id "0HN14PF649UOG" started.
+2024-02-03 23:21:33.8487 DEBUG Failed to authenticate HTTPS connection.
+2024-02-03 23:21:33.8487 DEBUG Connection id "0HN14PF649UOF" stopped.
+2024-02-03 23:21:33.8496 DEBUG Connection id "0HN14PF649UOF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-03 23:21:33.8800 DEBUG Connection 0HN14PF649UOG established using the following protocol: Tls12
+2024-02-03 23:21:33.8814 INFO Request starting HTTP/1.1 POST https://localhost:7048/api/Message/SendMessage application/json 92
+2024-02-03 23:21:33.8836 DEBUG 1 candidate(s) found for the request path '/api/Message/SendMessage'
+2024-02-03 23:21:33.8848 DEBUG Endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)' with route pattern 'api/Message/SendMessage' is valid for the request path '/api/Message/SendMessage'
+2024-02-03 23:21:33.8848 DEBUG Request matched endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:33.8859 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-02-03 23:21:33.8875 INFO Executing endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:33.8986 INFO Route matched with {action = "SendMessage", controller = "Message"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendMessage(WebApi.Entities.MessageEntity) on controller WebApi.Controllers.MessageController (WebApi).
+2024-02-03 23:21:33.8986 DEBUG Execution plan of authorization filters (in the following order): None
+2024-02-03 23:21:33.8986 DEBUG Execution plan of resource filters (in the following order): None
+2024-02-03 23:21:33.8986 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-02-03 23:21:33.8986 DEBUG Execution plan of exception filters (in the following order): None
+2024-02-03 23:21:33.8986 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-02-03 23:21:33.8996 DEBUG Executing controller factory for controller WebApi.Controllers.MessageController (WebApi)
+2024-02-03 23:21:33.8996 DEBUG Executed controller factory for controller WebApi.Controllers.MessageController (WebApi)
+2024-02-03 23:21:33.9031 DEBUG Attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity' ...
+2024-02-03 23:21:33.9046 DEBUG Attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity' using the name '' in request data ...
+2024-02-03 23:21:33.9046 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-02-03 23:21:33.9071 DEBUG Connection id "0HN14PF649UOG", Request id "0HN14PF649UOG:00000002": started reading request body.
+2024-02-03 23:21:33.9071 DEBUG Connection id "0HN14PF649UOG", Request id "0HN14PF649UOG:00000002": done reading request body.
+2024-02-03 23:21:33.9133 DEBUG JSON input formatter succeeded, deserializing to type 'WebApi.Entities.MessageEntity'
+2024-02-03 23:21:33.9133 DEBUG Done attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:33.9136 DEBUG Done attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:33.9136 DEBUG Attempting to validate the bound parameter 'message' of type 'WebApi.Entities.MessageEntity' ...
+2024-02-03 23:21:33.9204 DEBUG Done attempting to validate the bound parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:33.9270 DEBUG Connection id "0HN14PF649UOG" received FIN.
+2024-02-03 23:21:33.9270 DEBUG Connection id "0HN14PF649UOG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-03 23:21:33.9270 INFO Executing action method WebApi.Controllers.MessageController.SendMessage (WebApi) - Validation state: Valid
+2024-02-03 23:21:33.9281 DEBUG Connection id "0HN14PF649UOG" disconnecting.
+2024-02-03 23:21:34.0934 INFO Executed action method WebApi.Controllers.MessageController.SendMessage (WebApi), returned result Microsoft.AspNetCore.Mvc.OkResult in 163.6084ms.
+2024-02-03 23:21:34.0969 INFO Executing StatusCodeResult, setting HTTP status code 200
+2024-02-03 23:21:34.0991 INFO Executed action WebApi.Controllers.MessageController.SendMessage (WebApi) in 197.906ms
+2024-02-03 23:21:34.0991 INFO Executed endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:34.0991 INFO Request finished HTTP/1.1 POST https://localhost:7048/api/Message/SendMessage application/json 92 - 0 - - 217.8870ms
+2024-02-03 23:21:34.1002 DEBUG Connection id "0HN14PF649UOG" stopped.
+2024-02-03 23:21:34.2179 DEBUG Connection id "0HN14PF649UOH" accepted.
+2024-02-03 23:21:34.2196 DEBUG Connection id "0HN14PF649UOH" received FIN.
+2024-02-03 23:21:34.2239 DEBUG Connection id "0HN14PF649UOH" started.
+2024-02-03 23:21:34.2470 DEBUG Connection id "0HN14PF649UOI" accepted.
+2024-02-03 23:21:34.2470 DEBUG Connection id "0HN14PF649UOI" started.
+2024-02-03 23:21:34.2470 DEBUG Failed to authenticate HTTPS connection.
+2024-02-03 23:21:34.2470 DEBUG Connection id "0HN14PF649UOH" stopped.
+2024-02-03 23:21:34.2470 DEBUG Connection id "0HN14PF649UOH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-03 23:21:34.2739 DEBUG Connection 0HN14PF649UOI established using the following protocol: Tls12
+2024-02-03 23:21:34.2746 INFO Request starting HTTP/1.1 POST https://localhost:7048/api/Message/SendMessage application/json 92
+2024-02-03 23:21:34.2746 DEBUG 1 candidate(s) found for the request path '/api/Message/SendMessage'
+2024-02-03 23:21:34.2746 DEBUG Endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)' with route pattern 'api/Message/SendMessage' is valid for the request path '/api/Message/SendMessage'
+2024-02-03 23:21:34.2746 DEBUG Request matched endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:34.2746 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-02-03 23:21:34.2746 INFO Executing endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:34.2746 INFO Route matched with {action = "SendMessage", controller = "Message"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendMessage(WebApi.Entities.MessageEntity) on controller WebApi.Controllers.MessageController (WebApi).
+2024-02-03 23:21:34.2746 DEBUG Execution plan of authorization filters (in the following order): None
+2024-02-03 23:21:34.2746 DEBUG Execution plan of resource filters (in the following order): None
+2024-02-03 23:21:34.2746 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-02-03 23:21:34.2746 DEBUG Execution plan of exception filters (in the following order): None
+2024-02-03 23:21:34.2746 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-02-03 23:21:34.2746 DEBUG Executing controller factory for controller WebApi.Controllers.MessageController (WebApi)
+2024-02-03 23:21:34.2746 DEBUG Executed controller factory for controller WebApi.Controllers.MessageController (WebApi)
+2024-02-03 23:21:34.2756 DEBUG Attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity' ...
+2024-02-03 23:21:34.2756 DEBUG Attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity' using the name '' in request data ...
+2024-02-03 23:21:34.2756 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-02-03 23:21:34.2756 DEBUG Connection id "0HN14PF649UOI", Request id "0HN14PF649UOI:00000002": started reading request body.
+2024-02-03 23:21:34.2756 DEBUG Connection id "0HN14PF649UOI", Request id "0HN14PF649UOI:00000002": done reading request body.
+2024-02-03 23:21:34.2756 DEBUG JSON input formatter succeeded, deserializing to type 'WebApi.Entities.MessageEntity'
+2024-02-03 23:21:34.2756 DEBUG Done attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:34.2756 DEBUG Done attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:34.2756 DEBUG Attempting to validate the bound parameter 'message' of type 'WebApi.Entities.MessageEntity' ...
+2024-02-03 23:21:34.2756 DEBUG Done attempting to validate the bound parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:34.2756 INFO Executing action method WebApi.Controllers.MessageController.SendMessage (WebApi) - Validation state: Valid
+2024-02-03 23:21:34.3380 INFO Executed action method WebApi.Controllers.MessageController.SendMessage (WebApi), returned result Microsoft.AspNetCore.Mvc.OkResult in 61.887ms.
+2024-02-03 23:21:34.3380 INFO Executing StatusCodeResult, setting HTTP status code 200
+2024-02-03 23:21:34.3380 INFO Executed action WebApi.Controllers.MessageController.SendMessage (WebApi) in 63.016ms
+2024-02-03 23:21:34.3380 INFO Executed endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:34.3386 DEBUG Connection id "0HN14PF649UOI" completed keep alive response.
+2024-02-03 23:21:34.3386 INFO Request finished HTTP/1.1 POST https://localhost:7048/api/Message/SendMessage application/json 92 - 200 0 - 64.0954ms
+2024-02-03 23:21:34.8488 INFO Request starting HTTP/1.1 POST https://localhost:7048/api/Message/SendMessage application/json 92
+2024-02-03 23:21:34.8488 DEBUG 1 candidate(s) found for the request path '/api/Message/SendMessage'
+2024-02-03 23:21:34.8488 DEBUG Endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)' with route pattern 'api/Message/SendMessage' is valid for the request path '/api/Message/SendMessage'
+2024-02-03 23:21:34.8488 DEBUG Request matched endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:34.8488 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-02-03 23:21:34.8498 INFO Executing endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:34.8498 INFO Route matched with {action = "SendMessage", controller = "Message"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendMessage(WebApi.Entities.MessageEntity) on controller WebApi.Controllers.MessageController (WebApi).
+2024-02-03 23:21:34.8498 DEBUG Execution plan of authorization filters (in the following order): None
+2024-02-03 23:21:34.8498 DEBUG Execution plan of resource filters (in the following order): None
+2024-02-03 23:21:34.8498 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-02-03 23:21:34.8498 DEBUG Execution plan of exception filters (in the following order): None
+2024-02-03 23:21:34.8498 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-02-03 23:21:34.8498 DEBUG Executing controller factory for controller WebApi.Controllers.MessageController (WebApi)
+2024-02-03 23:21:34.8509 DEBUG Executed controller factory for controller WebApi.Controllers.MessageController (WebApi)
+2024-02-03 23:21:34.8509 DEBUG Attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity' ...
+2024-02-03 23:21:34.8509 DEBUG Attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity' using the name '' in request data ...
+2024-02-03 23:21:34.8509 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-02-03 23:21:34.8509 DEBUG Connection id "0HN14PF649UOI", Request id "0HN14PF649UOI:00000003": started reading request body.
+2024-02-03 23:21:34.8509 DEBUG Connection id "0HN14PF649UOI", Request id "0HN14PF649UOI:00000003": done reading request body.
+2024-02-03 23:21:34.8509 DEBUG JSON input formatter succeeded, deserializing to type 'WebApi.Entities.MessageEntity'
+2024-02-03 23:21:34.8509 DEBUG Done attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:34.8509 DEBUG Done attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:34.8509 DEBUG Attempting to validate the bound parameter 'message' of type 'WebApi.Entities.MessageEntity' ...
+2024-02-03 23:21:34.8509 DEBUG Done attempting to validate the bound parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:34.8516 INFO Executing action method WebApi.Controllers.MessageController.SendMessage (WebApi) - Validation state: Valid
+2024-02-03 23:21:34.9017 INFO Executed action method WebApi.Controllers.MessageController.SendMessage (WebApi), returned result Microsoft.AspNetCore.Mvc.OkResult in 50.0331ms.
+2024-02-03 23:21:34.9017 INFO Executing StatusCodeResult, setting HTTP status code 200
+2024-02-03 23:21:34.9017 INFO Executed action WebApi.Controllers.MessageController.SendMessage (WebApi) in 51.9087ms
+2024-02-03 23:21:34.9017 INFO Executed endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:34.9017 DEBUG Connection id "0HN14PF649UOI" completed keep alive response.
+2024-02-03 23:21:34.9017 INFO Request finished HTTP/1.1 POST https://localhost:7048/api/Message/SendMessage application/json 92 - 200 0 - 53.3990ms
+2024-02-03 23:21:35.5001 INFO Request starting HTTP/1.1 POST https://localhost:7048/api/Message/SendMessage application/json 92
+2024-02-03 23:21:35.5001 DEBUG 1 candidate(s) found for the request path '/api/Message/SendMessage'
+2024-02-03 23:21:35.5001 DEBUG Endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)' with route pattern 'api/Message/SendMessage' is valid for the request path '/api/Message/SendMessage'
+2024-02-03 23:21:35.5001 DEBUG Request matched endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:35.5007 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-02-03 23:21:35.5007 INFO Executing endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:35.5007 INFO Route matched with {action = "SendMessage", controller = "Message"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendMessage(WebApi.Entities.MessageEntity) on controller WebApi.Controllers.MessageController (WebApi).
+2024-02-03 23:21:35.5007 DEBUG Execution plan of authorization filters (in the following order): None
+2024-02-03 23:21:35.5007 DEBUG Execution plan of resource filters (in the following order): None
+2024-02-03 23:21:35.5007 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-02-03 23:21:35.5007 DEBUG Execution plan of exception filters (in the following order): None
+2024-02-03 23:21:35.5007 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-02-03 23:21:35.5007 DEBUG Executing controller factory for controller WebApi.Controllers.MessageController (WebApi)
+2024-02-03 23:21:35.5007 DEBUG Executed controller factory for controller WebApi.Controllers.MessageController (WebApi)
+2024-02-03 23:21:35.5016 DEBUG Attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity' ...
+2024-02-03 23:21:35.5016 DEBUG Attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity' using the name '' in request data ...
+2024-02-03 23:21:35.5016 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-02-03 23:21:35.5016 DEBUG Connection id "0HN14PF649UOI", Request id "0HN14PF649UOI:00000004": started reading request body.
+2024-02-03 23:21:35.5016 DEBUG Connection id "0HN14PF649UOI", Request id "0HN14PF649UOI:00000004": done reading request body.
+2024-02-03 23:21:35.5016 DEBUG JSON input formatter succeeded, deserializing to type 'WebApi.Entities.MessageEntity'
+2024-02-03 23:21:35.5016 DEBUG Done attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:35.5016 DEBUG Done attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:35.5016 DEBUG Attempting to validate the bound parameter 'message' of type 'WebApi.Entities.MessageEntity' ...
+2024-02-03 23:21:35.5016 DEBUG Done attempting to validate the bound parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:35.5028 INFO Executing action method WebApi.Controllers.MessageController.SendMessage (WebApi) - Validation state: Valid
+2024-02-03 23:21:35.5574 INFO Executed action method WebApi.Controllers.MessageController.SendMessage (WebApi), returned result Microsoft.AspNetCore.Mvc.OkResult in 54.3629ms.
+2024-02-03 23:21:35.5597 INFO Executing StatusCodeResult, setting HTTP status code 200
+2024-02-03 23:21:35.5597 INFO Executed action WebApi.Controllers.MessageController.SendMessage (WebApi) in 58.553ms
+2024-02-03 23:21:35.5597 INFO Executed endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:35.5597 DEBUG Connection id "0HN14PF649UOI" completed keep alive response.
+2024-02-03 23:21:35.5597 INFO Request finished HTTP/1.1 POST https://localhost:7048/api/Message/SendMessage application/json 92 - 200 0 - 60.1612ms
+2024-02-03 23:21:35.5620 DEBUG Connection id "0HN14PF649UOI" received FIN.
+2024-02-03 23:21:35.5620 DEBUG Connection id "0HN14PF649UOI" disconnecting.
+2024-02-03 23:21:35.5620 DEBUG Connection id "0HN14PF649UOI" stopped.
+2024-02-03 23:21:35.5708 DEBUG Connection id "0HN14PF649UOI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-03 23:21:35.8720 DEBUG Connection id "0HN14PF649UOJ" received FIN.
+2024-02-03 23:21:35.8728 DEBUG Connection id "0HN14PF649UOJ" accepted.
+2024-02-03 23:21:35.8728 DEBUG Connection id "0HN14PF649UOJ" started.
+2024-02-03 23:21:35.8728 DEBUG Connection id "0HN14PF649UOK" accepted.
+2024-02-03 23:21:35.8737 DEBUG Connection id "0HN14PF649UOK" started.
+2024-02-03 23:21:35.8737 DEBUG Failed to authenticate HTTPS connection.
+2024-02-03 23:21:35.8737 DEBUG Connection id "0HN14PF649UOJ" stopped.
+2024-02-03 23:21:35.8737 DEBUG Connection id "0HN14PF649UOJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-03 23:21:35.9007 DEBUG Connection 0HN14PF649UOK established using the following protocol: Tls12
+2024-02-03 23:21:35.9022 INFO Request starting HTTP/1.1 POST https://localhost:7048/api/Message/SendMessage application/json 92
+2024-02-03 23:21:35.9022 DEBUG 1 candidate(s) found for the request path '/api/Message/SendMessage'
+2024-02-03 23:21:35.9022 DEBUG Endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)' with route pattern 'api/Message/SendMessage' is valid for the request path '/api/Message/SendMessage'
+2024-02-03 23:21:35.9022 DEBUG Request matched endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:35.9022 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-02-03 23:21:35.9026 INFO Executing endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:35.9026 INFO Route matched with {action = "SendMessage", controller = "Message"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendMessage(WebApi.Entities.MessageEntity) on controller WebApi.Controllers.MessageController (WebApi).
+2024-02-03 23:21:35.9026 DEBUG Execution plan of authorization filters (in the following order): None
+2024-02-03 23:21:35.9026 DEBUG Execution plan of resource filters (in the following order): None
+2024-02-03 23:21:35.9026 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-02-03 23:21:35.9026 DEBUG Execution plan of exception filters (in the following order): None
+2024-02-03 23:21:35.9026 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-02-03 23:21:35.9026 DEBUG Executing controller factory for controller WebApi.Controllers.MessageController (WebApi)
+2024-02-03 23:21:35.9026 DEBUG Executed controller factory for controller WebApi.Controllers.MessageController (WebApi)
+2024-02-03 23:21:35.9026 DEBUG Attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity' ...
+2024-02-03 23:21:35.9026 DEBUG Attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity' using the name '' in request data ...
+2024-02-03 23:21:35.9026 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-02-03 23:21:35.9026 DEBUG Connection id "0HN14PF649UOK", Request id "0HN14PF649UOK:00000002": started reading request body.
+2024-02-03 23:21:35.9026 DEBUG Connection id "0HN14PF649UOK", Request id "0HN14PF649UOK:00000002": done reading request body.
+2024-02-03 23:21:35.9026 DEBUG JSON input formatter succeeded, deserializing to type 'WebApi.Entities.MessageEntity'
+2024-02-03 23:21:35.9026 DEBUG Done attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:35.9026 DEBUG Done attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:35.9026 DEBUG Attempting to validate the bound parameter 'message' of type 'WebApi.Entities.MessageEntity' ...
+2024-02-03 23:21:35.9026 DEBUG Done attempting to validate the bound parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:35.9037 INFO Executing action method WebApi.Controllers.MessageController.SendMessage (WebApi) - Validation state: Valid
+2024-02-03 23:21:35.9263 INFO Executed action method WebApi.Controllers.MessageController.SendMessage (WebApi), returned result Microsoft.AspNetCore.Mvc.OkResult in 22.4417ms.
+2024-02-03 23:21:35.9267 INFO Executing StatusCodeResult, setting HTTP status code 200
+2024-02-03 23:21:35.9267 INFO Executed action WebApi.Controllers.MessageController.SendMessage (WebApi) in 23.8985ms
+2024-02-03 23:21:35.9267 DEBUG Connection id "0HN14PF649UOK" received FIN.
+2024-02-03 23:21:35.9267 INFO Executed endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:35.9267 DEBUG Connection id "0HN14PF649UOK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-03 23:21:35.9267 DEBUG Connection id "0HN14PF649UOK" disconnecting.
+2024-02-03 23:21:35.9267 DEBUG Connection id "0HN14PF649UOK" completed keep alive response.
+2024-02-03 23:21:35.9267 INFO Request finished HTTP/1.1 POST https://localhost:7048/api/Message/SendMessage application/json 92 - 200 0 - 24.8685ms
+2024-02-03 23:21:35.9267 DEBUG Connection id "0HN14PF649UOK" stopped.
+2024-02-03 23:21:36.2388 DEBUG Connection id "0HN14PF649UOL" accepted.
+2024-02-03 23:21:36.2388 DEBUG Connection id "0HN14PF649UOL" started.
+2024-02-03 23:21:36.2436 DEBUG Connection id "0HN14PF649UOM" accepted.
+2024-02-03 23:21:36.2436 DEBUG Connection id "0HN14PF649UOL" received FIN.
+2024-02-03 23:21:36.2652 DEBUG Connection id "0HN14PF649UOM" started.
+2024-02-03 23:21:36.2668 DEBUG Failed to authenticate HTTPS connection.
+2024-02-03 23:21:36.2668 DEBUG Connection id "0HN14PF649UOL" stopped.
+2024-02-03 23:21:36.2668 DEBUG Connection id "0HN14PF649UOL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-03 23:21:36.2768 DEBUG Connection id "0HN14PF649UOM" received FIN.
+2024-02-03 23:21:36.2900 DEBUG Failed to authenticate HTTPS connection.
+2024-02-03 23:21:36.2900 DEBUG Connection id "0HN14PF649UOM" stopped.
+2024-02-03 23:21:36.2900 DEBUG Connection id "0HN14PF649UOM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-03 23:21:36.5581 DEBUG Connection id "0HN14PF649UON" accepted.
+2024-02-03 23:21:36.5581 DEBUG Connection id "0HN14PF649UON" started.
+2024-02-03 23:21:36.5637 DEBUG Connection id "0HN14PF649UOO" accepted.
+2024-02-03 23:21:36.5637 DEBUG Connection id "0HN14PF649UON" received FIN.
+2024-02-03 23:21:36.5637 DEBUG Connection id "0HN14PF649UOO" started.
+2024-02-03 23:21:36.5637 DEBUG Failed to authenticate HTTPS connection.
+2024-02-03 23:21:36.5637 DEBUG Connection id "0HN14PF649UON" stopped.
+2024-02-03 23:21:36.5654 DEBUG Connection id "0HN14PF649UON" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-03 23:21:36.5910 DEBUG Connection 0HN14PF649UOO established using the following protocol: Tls12
+2024-02-03 23:21:36.5924 INFO Request starting HTTP/1.1 POST https://localhost:7048/api/Message/SendMessage application/json 92
+2024-02-03 23:21:36.5924 DEBUG 1 candidate(s) found for the request path '/api/Message/SendMessage'
+2024-02-03 23:21:36.5926 DEBUG Endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)' with route pattern 'api/Message/SendMessage' is valid for the request path '/api/Message/SendMessage'
+2024-02-03 23:21:36.5926 DEBUG Request matched endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:36.5926 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-02-03 23:21:36.5926 INFO Executing endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:36.5926 INFO Route matched with {action = "SendMessage", controller = "Message"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendMessage(WebApi.Entities.MessageEntity) on controller WebApi.Controllers.MessageController (WebApi).
+2024-02-03 23:21:36.5926 DEBUG Execution plan of authorization filters (in the following order): None
+2024-02-03 23:21:36.5926 DEBUG Execution plan of resource filters (in the following order): None
+2024-02-03 23:21:36.5926 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-02-03 23:21:36.5926 DEBUG Execution plan of exception filters (in the following order): None
+2024-02-03 23:21:36.5926 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-02-03 23:21:36.5926 DEBUG Executing controller factory for controller WebApi.Controllers.MessageController (WebApi)
+2024-02-03 23:21:36.5926 DEBUG Executed controller factory for controller WebApi.Controllers.MessageController (WebApi)
+2024-02-03 23:21:36.5926 DEBUG Attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity' ...
+2024-02-03 23:21:36.5926 DEBUG Attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity' using the name '' in request data ...
+2024-02-03 23:21:36.5926 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-02-03 23:21:36.5926 DEBUG Connection id "0HN14PF649UOO", Request id "0HN14PF649UOO:00000002": started reading request body.
+2024-02-03 23:21:36.5926 DEBUG Connection id "0HN14PF649UOO", Request id "0HN14PF649UOO:00000002": done reading request body.
+2024-02-03 23:21:36.5926 DEBUG JSON input formatter succeeded, deserializing to type 'WebApi.Entities.MessageEntity'
+2024-02-03 23:21:36.5926 DEBUG Done attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:36.5926 DEBUG Done attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:36.5926 DEBUG Attempting to validate the bound parameter 'message' of type 'WebApi.Entities.MessageEntity' ...
+2024-02-03 23:21:36.5926 DEBUG Done attempting to validate the bound parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:36.5926 INFO Executing action method WebApi.Controllers.MessageController.SendMessage (WebApi) - Validation state: Valid
+2024-02-03 23:21:36.6078 INFO Executed action method WebApi.Controllers.MessageController.SendMessage (WebApi), returned result Microsoft.AspNetCore.Mvc.OkResult in 14.4219ms.
+2024-02-03 23:21:36.6078 INFO Executing StatusCodeResult, setting HTTP status code 200
+2024-02-03 23:21:36.6078 INFO Executed action WebApi.Controllers.MessageController.SendMessage (WebApi) in 15.4059ms
+2024-02-03 23:21:36.6078 INFO Executed endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:36.6078 DEBUG Connection id "0HN14PF649UOO" completed keep alive response.
+2024-02-03 23:21:36.6086 INFO Request finished HTTP/1.1 POST https://localhost:7048/api/Message/SendMessage application/json 92 - 200 0 - 16.1642ms
+2024-02-03 23:21:36.8814 INFO Request starting HTTP/1.1 POST https://localhost:7048/api/Message/SendMessage application/json 92
+2024-02-03 23:21:36.8816 DEBUG 1 candidate(s) found for the request path '/api/Message/SendMessage'
+2024-02-03 23:21:36.8816 DEBUG Endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)' with route pattern 'api/Message/SendMessage' is valid for the request path '/api/Message/SendMessage'
+2024-02-03 23:21:36.8816 DEBUG Request matched endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:36.8816 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-02-03 23:21:36.8816 INFO Executing endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:36.8816 INFO Route matched with {action = "SendMessage", controller = "Message"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendMessage(WebApi.Entities.MessageEntity) on controller WebApi.Controllers.MessageController (WebApi).
+2024-02-03 23:21:36.8816 DEBUG Execution plan of authorization filters (in the following order): None
+2024-02-03 23:21:36.8816 DEBUG Execution plan of resource filters (in the following order): None
+2024-02-03 23:21:36.8816 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-02-03 23:21:36.8816 DEBUG Execution plan of exception filters (in the following order): None
+2024-02-03 23:21:36.8816 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-02-03 23:21:36.8816 DEBUG Executing controller factory for controller WebApi.Controllers.MessageController (WebApi)
+2024-02-03 23:21:36.8816 DEBUG Executed controller factory for controller WebApi.Controllers.MessageController (WebApi)
+2024-02-03 23:21:36.8816 DEBUG Attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity' ...
+2024-02-03 23:21:36.8827 DEBUG Attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity' using the name '' in request data ...
+2024-02-03 23:21:36.8827 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-02-03 23:21:36.8827 DEBUG Connection id "0HN14PF649UOO", Request id "0HN14PF649UOO:00000003": started reading request body.
+2024-02-03 23:21:36.8827 DEBUG Connection id "0HN14PF649UOO", Request id "0HN14PF649UOO:00000003": done reading request body.
+2024-02-03 23:21:36.8827 DEBUG JSON input formatter succeeded, deserializing to type 'WebApi.Entities.MessageEntity'
+2024-02-03 23:21:36.8827 DEBUG Done attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:36.8827 DEBUG Done attempting to bind parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:36.8827 DEBUG Attempting to validate the bound parameter 'message' of type 'WebApi.Entities.MessageEntity' ...
+2024-02-03 23:21:36.8827 DEBUG Done attempting to validate the bound parameter 'message' of type 'WebApi.Entities.MessageEntity'.
+2024-02-03 23:21:36.8840 INFO Executing action method WebApi.Controllers.MessageController.SendMessage (WebApi) - Validation state: Valid
+2024-02-03 23:21:36.9249 INFO Executed action method WebApi.Controllers.MessageController.SendMessage (WebApi), returned result Microsoft.AspNetCore.Mvc.OkResult in 40.675ms.
+2024-02-03 23:21:36.9249 INFO Executing StatusCodeResult, setting HTTP status code 200
+2024-02-03 23:21:36.9249 INFO Executed action WebApi.Controllers.MessageController.SendMessage (WebApi) in 42.8813ms
+2024-02-03 23:21:36.9249 INFO Executed endpoint 'WebApi.Controllers.MessageController.SendMessage (WebApi)'
+2024-02-03 23:21:36.9249 DEBUG Connection id "0HN14PF649UOO" completed keep alive response.
+2024-02-03 23:21:36.9249 INFO Request finished HTTP/1.1 POST https://localhost:7048/api/Message/SendMessage application/json 92 - 200 0 - 44.0455ms
+2024-02-03 23:22:31.4003 DEBUG Connection id "0HN14PF649UOC" received FIN.
+2024-02-03 23:22:31.4003 DEBUG Connection id "0HN14PF649UOC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-03 23:22:31.4003 DEBUG Connection id "0HN14PF649UOC" disconnecting.
+2024-02-03 23:22:31.4003 DEBUG Connection id "0HN14PF649UOC" stopped.
+2024-02-03 23:22:40.3458 DEBUG init main
+2024-02-03 23:22:42.8327 INFO Start Smart Community Web API ...
+2024-02-03 23:22:43.0233 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-02-03 23:22:43.0475 DEBUG Hosting starting
+2024-02-03 23:22:43.1551 DEBUG Using development certificate: CN=localhost (Thumbprint: 11AF803484E2BE3B3B07016F037641FD690A9192)
+2024-02-03 23:22:43.2198 INFO Now listening on: https://localhost:7048
+2024-02-03 23:22:43.2199 INFO Now listening on: http://localhost:5268
+2024-02-03 23:22:43.2199 DEBUG Loaded hosting startup assembly WebApi
+2024-02-03 23:22:43.2199 INFO Application started. Press Ctrl+C to shut down.
+2024-02-03 23:22:43.2199 INFO Hosting environment: Development
+2024-02-03 23:22:43.2199 INFO Content root path: /Users/august/SynologyDrive/程式相關/Demo/C#/SmartCommunity/SmartCommunity/WebApi/
+2024-02-03 23:22:43.2199 DEBUG Hosting started
+2024-02-03 23:22:49.5375 DEBUG init main
+2024-02-03 23:22:49.5527 INFO Start Smart Community Consumer worker ...
+2024-02-03 23:37:33.4140 DEBUG init main
+2024-02-03 23:37:33.4298 INFO Start Smart Community Consumer worker ...
+2024-02-03 23:37:42.6182 DEBUG init main
+2024-02-03 23:37:42.6333 INFO Start Smart Community Consumer worker ...
+2024-02-03 23:42:05.0382 DEBUG init main
+2024-02-03 23:42:05.0536 INFO Start Smart Community Consumer worker ...
+2024-02-03 23:42:38.0160 DEBUG init main
+2024-02-03 23:42:38.0320 INFO Start Smart Community Consumer worker ...
+2024-02-03 23:52:55.9700 DEBUG init main
+2024-02-03 23:52:55.9857 INFO Start Smart Community Consumer worker ...
+2024-02-03 23:55:00.3872 DEBUG init main
+2024-02-03 23:55:00.4027 INFO Start Smart Community Consumer worker ...
+2024-02-03 23:55:39.4442 DEBUG init main
+2024-02-03 23:55:39.4594 INFO Start Smart Community Consumer worker ...
+2024-02-03 23:56:25.6409 DEBUG init main
+2024-02-03 23:56:25.6565 INFO Start Smart Community Consumer worker ...
+2024-02-03 23:59:47.4885 DEBUG init main
+2024-02-03 23:59:47.5049 INFO Start Smart Community Consumer worker ...
